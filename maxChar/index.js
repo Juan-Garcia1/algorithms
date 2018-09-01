@@ -6,7 +6,7 @@ function maxChar(str) {
   let max = 0
 
   for (let char of str) {
-    //check if char is the same
+    // ex. { h:1, e:1, l:2, o:1 }
     if (charMap[char]) {
       charMap[char]++
     } else {
